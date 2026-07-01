@@ -8,7 +8,7 @@ Monorepo for Sintj infrastructure services. Each subdirectory is a git submodule
 Event streaming: Kafka (KRaft, no Zookeeper) + Debezium CDC.
 - Deploys via Helm to k3d/k8s
 - CDC: PostgreSQL logical replication → Debezium → Kafka topics
-- Environments: UAT (jupiter/venus/saturn/mars/mercury), Sandbox, Prod
+- Services: user, form, workflow
 - See `service-bus/CLAUDE.md` for full context
 
 ### supertokens (`sintj-labs/supertokens`)
