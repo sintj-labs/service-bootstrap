@@ -1,0 +1,6 @@
+[submodule "service-bus"]
+	path = service-bus
+	url = https://github.com/sintj-labs/service-bus.git
+[submodule "supertokens"]
+	path = supertokens
+	url = https://github.com/sintj-labs/supertokens.git
