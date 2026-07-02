@@ -16,6 +16,7 @@ Authentication core: self-hosted SuperTokens running on Kubernetes.
 - Deployed via Helm (`supertokens/supertokens-postgresql`)
 - PostgreSQL-backed (RDS, same hosts as other services)
 - Backend SDKs connect via `http://supertokens:3567`
+- **Local k3d:** runs in in-memory mode (`values/local.yaml`) — no Postgres required
 - See `supertokens/CLAUDE.md` for full context
 
 ## Shared Conventions
